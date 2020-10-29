@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "watch": "vite/node_modules/.bin/vite",
-        "build": "vite/node_modules/.bin/vite build",
+        "build": "vite/node_modules/.bin/vite build --entry=\"../resources/js/app.js\"",
         "postinstall": "cd vite && yarn"
     },
     "devDependencies": {
