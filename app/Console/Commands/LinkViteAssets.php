@@ -40,7 +40,9 @@ class LinkViteAssets extends Command
         $vitePath = base_path('vite/resources');
 
         symlink(resource_path(), $vitePath);
+        symlink(base_path('node_modules'), base_path('vite/node_modules'));
 
         $this->info('linked ' . $vitePath . ' to '. resource_path());
+        $this->info('linked ' . base_path('node_modules') . ' to '. base_path('vite/'));
     }
 }

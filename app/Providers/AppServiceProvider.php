@@ -24,7 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        
         View::share('manifest', json_decode(file_get_contents(public_path('assets/manifest.json')), true));
     }
 }
