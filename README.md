@@ -1,3 +1,8 @@
+## Archive
+
+> This project was created for Vite 1 and an old version of Laravel, it's probably not relevant or even working and I don't have the time to maintain it currently. I recommend checking out [Laravel Vite](https://laravel-vite.dev/) if you need to get Vite working with Laravel.
+
+
 # Laravel Vite Starter
 
 ## To get running
